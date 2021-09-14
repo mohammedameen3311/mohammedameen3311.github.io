@@ -1,0 +1,61 @@
+body{
+    background: url(https://images.pexels.com/photos/5022456/pexels-photo-5022456.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+    ) no-repeat center ;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.cantaner{
+    width: 40%;
+    margin:100px auto;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 7%;
+}
+
+hr{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.btn-1{
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background-color:#426782;
+    border-radius: 5px;
+}
+
+.btn-1 a{
+    color: #fff;
+}
+
+a{
+    color: #426782;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cantaner input {
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.cantaner input[type=checkbox]{
+    width: auto;
+}
+
+.btn-2{
+    padding: 1rem;
+    background-color: #2ecc71;
+    font-size: 1rem;
+    width: 50%;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.btn-1 a{
+    color: #fff;
+}
