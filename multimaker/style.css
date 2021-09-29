@@ -10,6 +10,7 @@ body {
     background-color: #181818;
     color: #fff;
     overflow: hidden;
+    text-transform: capitalize;
 }
 
 #wrapper {
