@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 body {
     font-family: 'Staatliches', cursive;
-    color: #ffb72b;
+    background-color: black;
 }
 ::-webkit-scrollbar{
     width:10px ;
