@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    background-color: black;
+    font-family: 'Staatliches', cursive;
+}
+
+::-webkit-scrollbar{
+    width:10px ;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(194, 194, 194);
+}
+.home {
+    font-family: 'Staatliches', cursive;
+    background: url(https://wallpaperaccess.com/full/7445.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+    color: #fff;
+
+} 
+.navbar {
+    border-top: 3px solid #ffb72b;
+    border-bottom:  3px solid #ffb72b;
+    opacity: 0.7;
+}
+
+.home2{
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.bapa{
+    margin-top:10%;
+}
+
+
+
+

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body {
+    font-family: 'Staatliches', cursive;
+    color: #ffb72b;
+}
+::-webkit-scrollbar{
+    width:10px ;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.home {
+    font-family: 'Staatliches', cursive;
+    background: url(https://wallpaperaccess.com/full/7445.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+    color: #fff;
+
+} 
+
+
+.navbar {
+    border-top: 3px solid #ffb72b;
+    border-bottom:  3px solid #ffb72b;
+    opacity: 0.7;
+}
+
+.home2 {
+    background: url(https://images3.alphacoders.com/602/602216.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+
+} 
+
+.home .dark-overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #ffb72b;
+}
+
+.home2 .dark-overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.home .home-inner {
+    padding-top: 500px;
+}
+
+.navbar2 {
+    opacity: 0.7;
+    margin-top: 90px;
+}
+
+.home3 {
+    background: url(https://wallpaperaccess.com/full/858827.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+
+} 
+
+.home3 .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.home3 .home-inner {
+    padding-top: 500px;
+}
+
+.home2 .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.home2 .home-inner {
+    padding-top: 500px;
+    padding-bottom: 50px;
+}
+
+
