@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    
+
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top my-2" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-warning font-weight-bold"><i class="fa fa-gamepad fa-2x" aria-hidden="true"></i><span class="h4"> Game & Play</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNAV">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNAV">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="/gamestuff/gamingStuff.html">Gameing stuff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-warning" data-toggle="modal" data-target="#contactModal"  href="#">sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="navbar2 navbar-expand-sm fixed-top " id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="#explore-head-section">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="#create-head-section">Create</a>
+                    </li>
+                </ul>
+    </header>
+
+    <div class="thingy">
+
+    <section class="home">
+        <div class="dark-overlay">
+            <div class="home-inner container">
+                <h1 class=""> <strong>Game & Play</strong></h1>
+                <h1 class="py-2">Build <strong>games</strong> and gain <strong>Profits</strong></h1>
+                <button class="btn btn-outline-warning py-3"> <strong>read more</strong> </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="explore-head-section" class="i">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4"><i class="fa fa-arrow-circle-down fa-2x" aria-hidden="true"></i> </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home2">
+        <div class="dark-overlay2">
+            <div class="home-inner container">
+                    <h1 class="py-2"><strong>Lose yourself in an <br> amazing, evolving <br> world</strong></h1>
+                    <p>Explore LANDs owned by users to experience incredible sceres and  <br> structures From a space advernture to a <strong>medival dungeon maze</strong>  to <br> <strong>entire villages</strong>  crafted from the minds of community members</p>
+
+                    <button class="btn btn-outline-warning py-3"> <strong>Explore</strong> </button>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="create-head-section" class="am">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4"><i class="fa fa-arrow-circle-down fa-2x" aria-hidden="true"></i> </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home3">
+        <div class="dark-overlay2">
+            <div class="home-inner container">
+
+                <h1 class="py-2">Build <strong>games</strong> and gain <strong>Profits</strong></h1>
+                <p>Develop Android games and deploy them to multiple device types on<strong> Android, Chrome OS, and <br> Windows</strong> by using the <strong>Game & Play</strong>. Learn to use tools, best practices, and game services that <br> support your development workflow, improve game performance, and include a wide audience of <br> players.</p>
+
+                <button class="btn btn-outline-warning py-3"> <strong>Register / Log in</strong> </button>
+
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+    <!-- sign up thingy -->
+
+    <div class="modal fade text-dark " id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Us</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
